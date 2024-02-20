@@ -1,0 +1,43 @@
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media (min-width: 1200px) {
+  .c-footer .large-3:nth-child(1) {
+    flex-basis: 30%;
+    max-width: 30%;
+  }
+
+  .c-footer .large-3:nth-child(2) {
+    flex-basis: 22%;
+    max-width: 22%;
+  }
+  .c-footer .large-3:nth-child(3) {
+    flex-basis: 25%;
+    max-width: 25%;
+  }
+  .c-footer .large-3:nth-child(4) {
+    flex-basis: 21%;
+    max-width: 21%;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  header .nav > li {
+    margin: 0 7px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  header .nav > li {
+    margin: 0 3px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  header .header-contact-wrapper {
+    display: none;
+  }
+  .c-footer .large-3 {
+    padding: 10px;
+  }
+}

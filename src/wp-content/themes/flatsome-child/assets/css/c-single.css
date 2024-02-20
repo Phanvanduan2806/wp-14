@@ -1,0 +1,33 @@
+/* c-chitiet-baiviet */
+.c-chitiet-baiviet .large-8 {
+  font-size: 16px;
+}
+.c-chitiet-baiviet .large-8 h1 {
+  display: none;
+}
+
+.c-chitiet-baiviet .large-8 h2,
+.c-chitiet-baiviet .large-8 h3,
+.c-chitiet-baiviet .large-8 h4 {
+  color: #dea60c;
+}
+
+.sb-btn-2 {
+  color: #4c5144 !important;
+  border: 2px solid #4c5144;
+  margin-right: 0;
+}
+
+.sb-btn-2,
+.sb-btn-1 {
+  padding: 5px 10px;
+  width: 150px;
+}
+.sb-btn-1 span,
+.sb-btn-2 span {
+  font-size: 16px;
+}
+.c-chitiet-baiviet .large-4 .col-inner {
+  position: sticky;
+  top: 120px;
+}

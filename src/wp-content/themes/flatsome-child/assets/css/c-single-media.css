@@ -1,0 +1,23 @@
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .c-chitiet-baiviet .c-title {
+    font-size: 20px !important;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .sb-btn-2,
+  .sb-btn-1 {
+    width: 120px;
+    padding: 5px;
+  }
+  .sb-btn-1 span,
+  .sb-btn-2 span {
+    font-size: 13px;
+  }
+}

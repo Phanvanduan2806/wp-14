@@ -1,0 +1,157 @@
+* {
+  font-family: Inter, sans-serif;
+}
+
+/* ------ Header ------- */
+.header-nav .menu-item a {
+  font-weight: 700;
+  font-size: 16px;
+  color: #3f4753;
+}
+
+.header-button a span {
+  text-transform: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+header .nav > li {
+  margin: 0 14px;
+}
+
+header .hide-for-medium {
+  flex-wrap: nowrap;
+}
+
+.header-button a {
+  background-color: #4c5144;
+}
+
+/* --------- End Header -------- */
+
+/* --------- Footer ------------ */
+
+.c-footer p {
+  margin: 0 !important;
+  font-weight: 400;
+  font-style: normal;
+}
+.c-footer .large-3 {
+  padding: 5px;
+}
+
+.c-footer h3 {
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2;
+  margin: 0;
+}
+.c-footer .wpcf7-form .c-footer .stack {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.c-footer .stack .icon_element_outer_alignleft {
+  margin: 0;
+  font-size: 10px;
+}
+
+.c-footer .large-3:nth-child(3) .col .col-inner > div {
+  margin: 0;
+}
+
+.icon_element_outer_alignleft {
+  margin: 0;
+}
+
+.footer-contact-group {
+  display: flex;
+  margin-top: 16px;
+}
+
+.footer-contact-group .icon_element_inner {
+  font-size: 10px;
+  color: #3a69dc;
+}
+
+.footer-contact-group a span {
+  font-size: 16px;
+  color: white;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18.4px;
+}
+
+.footer-contact-group > div {
+  margin: 0;
+  margin-right: 5px;
+  width: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-contact-group:nth-last-child(1) {
+  display: flex;
+  align-items: flex-start;
+}
+.c-footer .large-3:nth-child(4) .stack {
+  align-items: center;
+}
+.c-footer .wpcf7-form {
+  background: #fff;
+  padding: 20px;
+}
+.c-footer .wpcf7-form label {
+  color: #000;
+}
+.c-footer .wpcf7-form .wpcf7-spinner {
+  display: none;
+}
+.c-footer .wpcf7-form .wpcf7-submit {
+  font-size: 12px;
+}
+
+/* c-title */
+.c-title {
+  font-size: 48px;
+  line-height: 64px;
+  font-weight: 700;
+  color: #dea60d;
+}
+.c-title p {
+  margin-bottom: 0;
+}
+.c-sub-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  color: #4c5144;
+  margin-bottom: 0;
+}
+
+.c-title,
+.c-title .section-title {
+  margin-bottom: 0;
+}
+.c-title .section-title-main {
+  font-size: 48px;
+  line-height: 64px;
+  font-weight: 700;
+  color: #dea60d;
+  border: none;
+  margin-right: 0;
+  text-transform: lowercase;
+}
+.c-title .section-title-main:first-letter {
+  text-transform: uppercase;
+}
+.c-title .section-title b {
+  display: none;
+}
+.c-title .section-title-normal {
+  border: none;
+}

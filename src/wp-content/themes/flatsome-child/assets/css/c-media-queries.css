@@ -1,0 +1,153 @@
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .c-banner .banner .text-inner {
+    padding: 17px 48px 31px 27px;
+    background-color: rgba(255, 255, 255, 1);
+    margin-top: 60px;
+  }
+
+  .c-banner .banner .text-box {
+    width: 80% !important;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .c-title .section-title,
+  .c-title,
+  .c-title .section-title-main {
+    font-size: 36px !important;
+    line-height: 48px;
+  }
+
+  .c-camnhan .c-camnhan-row::before {
+    display: none;
+  }
+
+  .c-camnhan .c-camnhan-row::after {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .c-banner .banner .button {
+    padding: 5px 10px;
+    width: 45%;
+  }
+}
+
+@media only screen and (max-width: 849px) {
+  .c-web-quan1 .img {
+    width: 50% !important;
+  }
+  .c-camnhan .banner .text-box {
+    width: 90% !important;
+  }
+  .c-cotmoc-number > div:first-child {
+    margin-bottom: 50px;
+  }
+  .c-cotmoc-number .col-inner {
+    padding: 0 20px;
+  }
+  .c-bao-gia .button.c-nhan-noibat {
+    left: 50%;
+  }
+  .c-title .section-title {
+    justify-content: center;
+  }
+}
+
+/* Small Devices, Tablets */
+
+@media only screen and (max-width: 768px) {
+  .c-banner .banner .text-box p {
+    font-size: 15px;
+  }
+  .c-banner .banner .button span {
+    font-size: 12px;
+  }
+  .c-doi-tuong .cdt-item .box-text {
+    font-size: 12px;
+  }
+  .c-camnhan .banner .text-box {
+    width: 100% !important;
+  }
+  .c-camnhan .text-box .text {
+    font-size: 12px !important;
+  }
+  .c-camnhan .icon-box .text {
+    font-size: 12px;
+  }
+  .c-camnhan .ccn-decs:after {
+    bottom: 85px;
+  }
+  .c-bao-gia .button.c-nhan-noibat {
+    bottom: 99%;
+    left: 48%;
+  }
+}
+
+@media only screen and (max-width: 549px) {
+  .c-title .section-title,
+  .c-title,
+  .c-title .section-title-main {
+    font-size: 28px !important;
+    line-height: 36px !important;
+  }
+  .c-banner .banner .text-box {
+    top: 0;
+    right: 50%;
+    transform: translateX(50%);
+  }
+  .c-banner .banner .text-inner {
+    padding: 17px 48px 31px 27px;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin-top: 40px;
+  }
+  .c-doi-tuong .cdt-item .box-text {
+    font-size: 16px;
+  }
+  .c-web-quan1 p {
+    font-size: 15px;
+  }
+  .c-web-quan1 .img {
+    width: 100% !important;
+  }
+  .c-camnhan .text-box .text {
+    font-size: 16px !important;
+  }
+  .c-camnhan .icon-box .text {
+    font-size: 16px;
+  }
+  .c-camnhan .ccn-decs:after {
+    bottom: 99px;
+  }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .c-banner .banner .button span {
+    font-size: 10px;
+  }
+  .c-quytrinh .c-cacbuoc h6 {
+    font-size: 18px;
+  }
+  .c-bao-gia .button.c-nhan-noibat {
+    bottom: 97%;
+    left: 64%;
+  }
+  .c-bao-gia .row {
+    gap: 20px;
+  }
+}
+
+@media only screen and (max-width: 412px) {
+  .c-camnhan .ccn-decs:after {
+    bottom: 125px;
+  }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+}
